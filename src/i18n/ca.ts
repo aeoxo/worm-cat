@@ -1,11 +1,11 @@
 export default {
     hero: {
         country: "Estats Units",
-        pfp_alt: "Foto de glworm",
+        pfp_alt: "Foto de aero",
     },
     about: {
         title: "Sobre mi",
-        description: "Sóc glworm, tot i que potser em coneixeu com a ghostjusr. Començo coses i mai no les acabo. Explora algunes de les coses que m'interessen actualment:",
+        description: "Sóc aero, tot i que potser em coneixeu com a glworm. Començo coses i mai no les acabo. Explora algunes de les coses que m'interessen actualment:",
         hobby_dev: "DEV",
         hobby_dev_desc: "Projectes aleatoris (La majoria inacabats)",
         hobby_music: "MÚSICA",
@@ -22,6 +22,7 @@ export default {
     },
     dev: {
         title: "Dev",
+        description: "M'agrada fer coses aleatòries, sobretot en Python i JavaScript. Actualment estic aprenent Rust. Aquí teniu alguns dels meus projectes: (PRÒXIMAMENT)",
     },
     minecraft: {
         title: "Minecraft",

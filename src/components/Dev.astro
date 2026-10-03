@@ -5,6 +5,7 @@ import { Image } from 'astro:assets';
 <div id="dev" style="backdrop-filter: blur(12px);">
     <h1>{Astro.props.text.title}</h1>
     <hr />
+    <p>{Astro.props.text.description}</p>
 </div>
 
 <style>
@@ -57,6 +58,10 @@ import { Image } from 'astro:assets';
         font-size: 1.5rem;
         margin: 15px;
         margin-top: -10px;
+    }
+
+    #dev p {
+        margin: 5px;
     }
 
     hr {
